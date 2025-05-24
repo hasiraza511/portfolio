@@ -54,7 +54,7 @@ export const Layout = ({ children }: LayoutProps) => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <div className="text-2xl font-bold text-brand-purple mb-2">UG.</div>
+              <div className="text-2xl font-bold text-brand-purple mb-2">Muhammad Haseeb.</div>
               <p className="text-muted-foreground text-sm max-w-md">
                 Building innovative digital solutions with a focus on clean, efficient code and exceptional user experiences.
               </p>
@@ -63,7 +63,7 @@ export const Layout = ({ children }: LayoutProps) => {
               <p className="text-foreground font-medium mb-3">Connect with me</p>
               <div className="flex space-x-4">
                 <motion.a
-                  href="https://github.com/oxBinaryBrain/"
+                  href="https://github.com/hasiraza511"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
@@ -74,7 +74,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   <Github className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://www.linkedin.com/in/uday-g-601ba9266/"
+                  href="https://www.linkedin.com/in/muhammad-haseeb-raza-71987a366?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlxKUEto%2BQ16V5iH%2FD0gVJQ%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
@@ -85,7 +85,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   <Linkedin className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="https://x.com/UdayG6389896490"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
@@ -96,7 +96,7 @@ export const Layout = ({ children }: LayoutProps) => {
                   <Twitter className="h-5 w-5" />
                 </motion.a>
                 <motion.a
-                  href="mailto:ud4yg@yandex.com"
+                  href="mailto:hasiraza511@gmail.com"
                   className="text-muted-foreground hover:text-brand-purple transition-colors bg-secondary p-3 rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
@@ -108,7 +108,7 @@ export const Layout = ({ children }: LayoutProps) => {
             </div>
           </div>
           <div className="text-muted-foreground text-sm text-center mt-8">
-            © {new Date().getFullYear()} Uday G. All rights reserved.
+            © {new Date().getFullYear()} Muhammad Haseeb Raza . All rights reserved.
           </div>
         </div>
       </footer>

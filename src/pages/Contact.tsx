@@ -82,20 +82,20 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-brand-purple" />,
       title: "Email",
-      details: "ud4yg@yandex.com",
-      link: "mailto:ud4yg@yandex.com",
+      details: "hasiraza511@gmail.com",
+      link: "mailto:hasiraza511@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6 text-brand-purple" />,
       title: "Phone",
-      details: "+91 0000000000",
-      link: "tel:+910000000000",
+      details: "+92 3193661511",
+      link: "tel:+923193661511",
     },
     {
       icon: <MapPin className="h-6 w-6 text-brand-purple" />,
       title: "Location",
-      details: "Bengaluru, Karnataka, India",
-      link: "https://maps.google.com/?q=Bengaluru",
+      details: "Lahore, Punjab, Pakistan",
+      link: "https://g.co/kgs/eM5qpbJ",
     },
   ];
 
@@ -103,17 +103,17 @@ const Contact = () => {
     {
       icon: <Github className="h-6 w-6" />,
       name: "GitHub",
-      url: "https://github.com/oxBinaryBrain/",
+      url: "https://github.com/hasiraza511",
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/uday-g-601ba9266/",
+      url: "https://www.linkedin.com/in/muhammad-haseeb-raza-71987a366?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlxKUEto%2BQ16V5iH%2FD0gVJQ%3D%3D",
     },
     {
       icon: <Twitter className="h-6 w-6" />,
       name: "Twitter",
-      url: "https://x.com/UdayG6389896490",
+      url: "",
     },
   ];
 

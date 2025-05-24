@@ -17,10 +17,10 @@ const About = () => {
     { name: "React.js", level: "Intermediate" },
     { name: "Node.js", level: "Intermediate" },
     { name: "Next.js", level: "Intermediate" },
-    { name: "C++", level: "Intermediate" },
-    { name: "Machine Learning", level: "Intermediate" },
-    { name: "CSS", level: "Intermediate" },
-    { name: "Blockchain", level: "Beginner" },
+    { name: "R", level: "Intermediate" },
+    { name: "Machine Learning", level: "Advance" },
+    { name: "Power BI", level: "Advanced" },
+    { name: "SQL", level: "Advanced" },
     { name: "AI", level: "Intermediate" },
   ];
 
@@ -42,7 +42,7 @@ const About = () => {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-muted-foreground">
-                I'm a Computer Science student passionate about creating innovative solutions through programming and technology.
+                I am a versatile tech professional—a Data Analyst who uncovers insights and a Full Stack Developer who builds solutions. With 2 years of experience, you bridge data and code to create impact, whether through dashboards, apps, or automation. Your hybrid skills make you a problem-solver in data-driven development.
               </p>
             </div>
           </motion.div>
@@ -88,16 +88,16 @@ const About = () => {
                   I'm <motion.span 
                     className="text-brand-purple font-semibold"
                     whileHover={{ color: "#8B5CF6" }}
-                  >Uday G</motion.span>, a Computer Science student specializing in AI & Machine Learning at Presidency University, Bengaluru.
+                  >Muhammad Haseeb Raza </motion.span>, Data Analyst and Full Stack Developer with 2 years of experience building data-driven solutions and scalable web applications.
                 </p>
                 <p>
-                  My journey in programming began with an interest in solving complex problems. This led me to explore various programming languages and technologies, with a focus on web development and artificial intelligence.
+                  My expertise includes Python (Pandas, NumPy), SQL, JavaScript (React, Node.js), and BI tools (Power BI, Tableau), along with backend frameworks like Django and Express.
                 </p>
                 <p>
-                  I'm passionate about building web applications and software that is not only functional but also intuitive and user-friendly. I believe in continuous learning and staying updated with the latest technologies.
+                 I’ve worked on end-to-end projects—from analyzing datasets to deploying full-stack apps—combining analytics and development to deliver actionable insights and functional systems.
                 </p>
                 <p>
-                  When I'm not coding, I enjoy exploring new technologies, solving algorithmic problems, contributing to open-source projects and playing video games.
+                 Passionate about problem-solving, I thrive where data meets code.
                 </p>
               </div>
             </motion.div>
@@ -191,7 +191,7 @@ const About = () => {
               <InfoCard icon={GraduationCap} title="Education Journey">
                 <ul className="space-y-2 text-muted-foreground">
                   {["Computer Science fundamentals", "Data structures and algorithms", 
-                    "Machine learning and AI", "Self-taught web development"].map((journey, i) => (
+                    "Machine learning and AI", "Data Engineering"].map((journey, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
@@ -206,8 +206,8 @@ const About = () => {
 
               <InfoCard icon={BookOpen} title="Future Goals">
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Mastering advanced AI techniques", "Building impactful web applications", 
-                    "Contributing to open-source projects", "Exploring blockchain development"].map((goal, i) => (
+                  {["Mastering advanced AI techniques", "Building impactful Softwares", 
+                    "Become Data scientist", "Made my own Tech company"].map((goal, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"

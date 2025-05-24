@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import HeroSection from "@/components/HeroSection";
 import { motion } from "framer-motion";
-import { ArrowRight, Code, GraduationCap, Briefcase, Star, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, Code, GraduationCap, Briefcase, Star, ExternalLink, Github, Database } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -40,10 +40,10 @@ const Index = () => {
 
   const techStack = [
     { name: "Python", proficiency: 90 },
-    { name: "JavaScript", proficiency: 85 },
+    { name: "SQL", proficiency: 85 },
     { name: "React.js", proficiency: 80 },
     { name: "Node.js", proficiency: 75 },
-    { name: "C++", proficiency: 70 },
+    { name: "R", proficiency: 70 },
     { name: "Next.js", proficiency: 65 },
   ];
 
@@ -66,7 +66,7 @@ const Index = () => {
             </span>
             <h2 className="text-4xl font-bold mb-6">Who I Am</h2>
             <p className="max-w-3xl mx-auto text-muted-foreground">
-              I'm a Computer Science student specializing in AI & ML. Passionate about programming, AI integration, and building innovative web applications.
+             I am a versatile tech professional—a Data Analyst who uncovers insights and a Full Stack Developer who builds solutions. With 2 years of experience, you bridge data and code to create impact, whether through dashboards, apps, or automation. Your hybrid skills make you a problem-solver in data-driven development.
             </p>
           </motion.div>
 
@@ -79,13 +79,13 @@ const Index = () => {
               className="glass-panel p-8 rounded-lg"
             >
               <div className="flex items-center justify-center w-16 h-16 bg-teal-500/10 rounded-lg mb-6 mx-auto">
-                <Code className="w-8 h-8 text-teal-400" />
+                <Database className="w-8 h-8 text-teal-400" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">
-                Web Development
+                Data Analyst
               </h3>
               <p className="text-muted-foreground text-center">
-                Experienced in building modern, responsive web applications using React.js, Next.js, and Node.js.
+                Experienced in Data cleaning ,Data manipulation,Data visualization,Dashboard.
               </p>
             </motion.div>
 
@@ -97,13 +97,13 @@ const Index = () => {
               className="glass-panel p-8 rounded-lg"
             >
               <div className="flex items-center justify-center w-16 h-16 bg-teal-500/10 rounded-lg mb-6 mx-auto">
-                <GraduationCap className="w-8 h-8 text-teal-400" />
+                <Code className="w-8 h-8 text-teal-400" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">
-                Computer Science
+                Full-stack Development
               </h3>
               <p className="text-muted-foreground text-center">
-                Strong foundation in algorithms, data structures, and programming principles.
+                Experienced in developing Mobile Apps, Website , Softwares.
               </p>
             </motion.div>
 
@@ -118,10 +118,10 @@ const Index = () => {
                 <Briefcase className="w-8 h-8 text-teal-400" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-center">
-                AI & Machine Learning
+                AI Engineer 
               </h3>
               <p className="text-muted-foreground text-center">
-                Specializing in artificial intelligence and machine learning algorithms and applications.
+                Specializing in artificial intelligence and making chatbots.
               </p>
             </motion.div>
           </div>
@@ -159,7 +159,7 @@ const Index = () => {
             </span>
             <h2 className="text-4xl font-bold mb-6">Tech Stack</h2>
             <p className="max-w-3xl mx-auto text-muted-foreground">
-              A collection of technologies I work with to build web applications and solve complex problems.
+              A collection of technologies I work with to build \Mobile Apps , Software,and solve complex problems like Data Cleaning,Data visualization,Data Mainpulation.
             </p>
           </motion.div>
 
@@ -207,7 +207,7 @@ const Index = () => {
             </span>
             <h2 className="text-4xl font-bold mb-6">Featured Projects</h2>
             <p className="max-w-3xl mx-auto text-muted-foreground">
-              A selection of my recent web development and programming projects.
+              A selection of my recent Data Analyst Projects.
             </p>
           </motion.div>
 
@@ -238,24 +238,7 @@ const Index = () => {
                       </span>
                     ))}
                   </div>
-                  <div className="flex justify-between">
-                    <Link
-                      to={project.link}
-                      className="inline-flex items-center text-teal-400 hover:text-teal-300 transition-colors"
-                    >
-                      View Details
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                    <a
-                      href={project.code}
-                      className="inline-flex items-center text-muted-foreground hover:text-foreground transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Github className="mr-1.5 h-4 w-4" />
-                      Source Code
-                    </a>
-                  </div>
+                
                 </div>
               </motion.div>
             ))}

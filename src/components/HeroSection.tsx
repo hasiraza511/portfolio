@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 import SkillCard from "./SkillCard";
 
 const phrases = [
-  "Frontend Developer",
-  "AI & ML Enthusiast",
-  "Web Developer"
+  "Data Analyst",
+  "Full stack Developer",
+  "AI Enginner"
 ];
 
 const HeroSection = () => {
@@ -52,7 +52,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="block">Hi, I'm </span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-amber-400">Uday G</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-amber-400">Muhammad Haseeb Raza</span>
             </motion.h1>
             
             <motion.div 
@@ -73,8 +73,8 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Passionate about programming and software development with expertise in Python, JavaScript, and C++.
-              Building modern web applications using Node.js, React.js, and Next.js. Freelancer specializing in AI-powered solutions.
+              Data Analyst having skill in python,SQL,R,Java script,Reat.js,Node.js,Next.js.
+              Building Python Based Apps,Data cleaning,Data visualization,Data manipulation,Designing Dashborads.
             </motion.p>
             
             <motion.div 
@@ -118,7 +118,7 @@ const HeroSection = () => {
                 <SkillCard 
                   icon={Code}
                   title="Python"
-                  description="Expert level proficiency"
+                  description="Development"
                   className="col-span-3 row-span-2"
                 />
                 
@@ -144,9 +144,9 @@ const HeroSection = () => {
                 />
                 
                 <SkillCard 
-                  icon={Terminal}
-                  title="C++"
-                  description="Systems programming"
+                  icon={Code}
+                  title="Next.js"
+                  description="React framework"
                   className="col-span-2 row-span-2"
                 />
                 
@@ -173,8 +173,8 @@ const HeroSection = () => {
                 
                 <SkillCard 
                   icon={Code}
-                  title="Next.js"
-                  description="React framework"
+                  title="R"
+                  description="Data cleaning ,data visualization,Data manipulation"
                   className="col-span-3 row-span-2"
                 />
               </div>

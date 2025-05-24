@@ -15,25 +15,25 @@ const Academics = () => {
   const education = [
     {
       id: 1,
-      institution: "Presidency University, Bengaluru",
-      degree: "Bachelor of Technology (B.Tech)",
-      field: "Computer Science & Engineering (Specialization in AI & ML)",
-      duration: "2021 - Present",
-      location: "Bengaluru, Karnataka",
+      institution: "University of Management and Technology ,Lahore,Pakistan",
+      degree: "Bachelor of Data Science (B.Tech)",
+      field: "Data Analyst & Data Engineering ",
+      duration: "2023 - Present",
+      location: "Lahore, Pakistan",
       cgpa: "In Progress",
       details: [
-        "Specializing in Artificial Intelligence and Machine Learning",
-        "Key courses include Data Structures, Algorithms, Machine Learning",
-        "Actively participating in research projects related to AI/ML"
+        "Specializing in Data Science and Ai Enginnering",
+        "Key courses include Data Structures, Algorithms, Machine Learning,Data cleaning",
+        "Actively participating in research projects related to AI/ML/Data science"
       ]
     },
     {
       id: 2,
-      institution: "MES Kishora Kendra",
+      institution: "Hira Science Educational Complex",
       degree: "Pre-University College",
-      field: "Science Stream",
-      duration: "2019 - 2021",
-      location: "Bengaluru, Karnataka",
+      field: "ICS",
+      duration: "2021 - 2023",
+      location: "Haroonabad,Punjab,Pakistan",
       cgpa: "8.5",
       details: [
         "Major subjects included Physics, Mathematics, Chemistry, Computer Science",
@@ -43,11 +43,11 @@ const Academics = () => {
     },
     {
       id: 3,
-      institution: "Nelamangala, Bengaluru",
+      institution: "Allied School",
       degree: "Secondary High School",
-      field: "NCERT-based Curriculum",
-      duration: "2012 - 2019",
-      location: "Bengaluru, Karnataka",
+      field: "Matric",
+      duration: "2019 - 2021",
+      location: "Haroonabad,Punjab,Pakistan",
       cgpa: "9.09",
       details: [
         "Strong foundation in Science",
@@ -93,11 +93,11 @@ const Academics = () => {
     "Artificial Intelligence",
     "Database Management Systems",
     "Computer Networks",
-    "Operating Systems",
+    "Full stack development",
     "Web Technologies",
-    "Software Engineering",
-    "Cloud Computing",
-    "Blockchain Technology"
+    "NLP",
+    "Data Engineering",
+    "Data Analyising"
   ];
 
   return (

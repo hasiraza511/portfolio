@@ -28,13 +28,14 @@ const Resume = () => {
 
   const skills = {
     programming: [
-      { name: "Python", level: 90 },
-      { name: "JavaScript", level: 88 },
-      { name: "HTML/CSS", level: 85 },
+      { name: "Python", level: 92 },
+      { name: "JavaScript", level: 90 },
+      { name: "R", level: 80 },
       { name: "Java", level: 80 },
       { name: "C#", level: 75 },
       { name: "C++", level: 70 },
       { name: "SQL", level: 70 },
+      
     ],
     frameworks: [
       { name: "React.js", level: 85 },
@@ -46,14 +47,15 @@ const Resume = () => {
       { name: "Git/GitHub", level: 85 },
       { name: "VS Code", level: 90 },
       { name: "MongoDB", level: 70 },
-      { name: "Postman", level: 80 },
+      { name: "Excel", level: 90 },
       { name: "AI Tools", level: 80 },
+      { name: "Power BI", level: 90 },
     ],
     areas: [
       { name: "Machine Learning", level: 80 },
       { name: "Web Development", level: 85 },
-      { name: "API Development", level: 65 },
-      { name: "Neural Networks", level: 75 },
+      { name: "Data Engineer", level: 65 },
+      { name: "Data Analyst", level: 75 },
     ]
   };
 
